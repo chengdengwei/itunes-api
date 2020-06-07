@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3258AD224892D5A00AAFD55 /* ITunesSearchApi.m in Sources */ = {isa = PBXBuildFile; fileRef = F3258AD124892D5A00AAFD55 /* ITunesSearchApi.m */; };
+		F3258AD9248D407500AAFD55 /* ITunesBaseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F3258AD8248D407500AAFD55 /* ITunesBaseItem.m */; };
+		F3258ADC248D565400AAFD55 /* ITunesMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F3258ADB248D565400AAFD55 /* ITunesMediaItem.m */; };
+		F3258ADF248D567D00AAFD55 /* ITunesEbookItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F3258ADE248D567D00AAFD55 /* ITunesEbookItem.m */; };
+		F3258AE2248D56A100AAFD55 /* ITunesItemsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F3258AE1248D56A100AAFD55 /* ITunesItemsFactory.m */; };
 		F34631062482864200E96C0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F34631052482864200E96C0D /* AppDelegate.m */; };
 		F346310C2482864200E96C0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F346310B2482864200E96C0D /* ViewController.m */; };
 		F34631112482864900E96C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34631102482864900E96C0D /* Assets.xcassets */; };
 		F34631142482864900E96C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34631122482864900E96C0D /* LaunchScreen.storyboard */; };
 		F34631172482864900E96C0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F34631162482864900E96C0D /* main.m */; };
+		F3AC90952483A4C7006427F3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AC90942483A4C7006427F3 /* RootViewController.m */; };
+		F3AC909A2483ED3A006427F3 /* ITunesEntityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AC90982483ED3A006427F3 /* ITunesEntityTableViewCell.m */; };
+		F3AC909B2483ED3A006427F3 /* ITunesEntityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3AC90992483ED3A006427F3 /* ITunesEntityTableViewCell.xib */; };
+		F3E94B692486635A005D121D /* ITunesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E94B682486635A005D121D /* ITunesDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3258AD024892D5A00AAFD55 /* ITunesSearchApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesSearchApi.h; sourceTree = "<group>"; };
+		F3258AD124892D5A00AAFD55 /* ITunesSearchApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesSearchApi.m; sourceTree = "<group>"; };
+		F3258AD7248D407500AAFD55 /* ITunesBaseItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesBaseItem.h; sourceTree = "<group>"; };
+		F3258AD8248D407500AAFD55 /* ITunesBaseItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesBaseItem.m; sourceTree = "<group>"; };
+		F3258ADA248D565400AAFD55 /* ITunesMediaItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesMediaItem.h; sourceTree = "<group>"; };
+		F3258ADB248D565400AAFD55 /* ITunesMediaItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesMediaItem.m; sourceTree = "<group>"; };
+		F3258ADD248D567D00AAFD55 /* ITunesEbookItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesEbookItem.h; sourceTree = "<group>"; };
+		F3258ADE248D567D00AAFD55 /* ITunesEbookItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesEbookItem.m; sourceTree = "<group>"; };
+		F3258AE0248D56A100AAFD55 /* ITunesItemsFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesItemsFactory.h; sourceTree = "<group>"; };
+		F3258AE1248D56A100AAFD55 /* ITunesItemsFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesItemsFactory.m; sourceTree = "<group>"; };
 		F34631012482864200E96C0D /* itunes-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itunes-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F34631042482864200E96C0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F34631052482864200E96C0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,6 +43,13 @@
 		F34631132482864900E96C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F34631152482864900E96C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F34631162482864900E96C0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3AC90932483A4C7006427F3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F3AC90942483A4C7006427F3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F3AC90972483ED3A006427F3 /* ITunesEntityTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesEntityTableViewCell.h; sourceTree = "<group>"; };
+		F3AC90982483ED3A006427F3 /* ITunesEntityTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesEntityTableViewCell.m; sourceTree = "<group>"; };
+		F3AC90992483ED3A006427F3 /* ITunesEntityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ITunesEntityTableViewCell.xib; sourceTree = "<group>"; };
+		F3E94B672486635A005D121D /* ITunesDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITunesDataSource.h; sourceTree = "<group>"; };
+		F3E94B682486635A005D121D /* ITunesDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +63,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3258ACF24892D3B00AAFD55 /* SearchApi */ = {
+			isa = PBXGroup;
+			children = (
+				F3258AD024892D5A00AAFD55 /* ITunesSearchApi.h */,
+				F3258AD124892D5A00AAFD55 /* ITunesSearchApi.m */,
+			);
+			path = SearchApi;
+			sourceTree = "<group>";
+		};
+		F3258AD6248D406000AAFD55 /* ITunesItem */ = {
+			isa = PBXGroup;
+			children = (
+				F3258AD7248D407500AAFD55 /* ITunesBaseItem.h */,
+				F3258AD8248D407500AAFD55 /* ITunesBaseItem.m */,
+				F3258ADA248D565400AAFD55 /* ITunesMediaItem.h */,
+				F3258ADB248D565400AAFD55 /* ITunesMediaItem.m */,
+				F3258ADD248D567D00AAFD55 /* ITunesEbookItem.h */,
+				F3258ADE248D567D00AAFD55 /* ITunesEbookItem.m */,
+				F3258AE0248D56A100AAFD55 /* ITunesItemsFactory.h */,
+				F3258AE1248D56A100AAFD55 /* ITunesItemsFactory.m */,
+			);
+			path = ITunesItem;
+			sourceTree = "<group>";
+		};
 		F34630F82482864200E96C0D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +106,9 @@
 		F34631032482864200E96C0D /* itunes-api */ = {
 			isa = PBXGroup;
 			children = (
+				F3258AD6248D406000AAFD55 /* ITunesItem */,
+				F3258ACF24892D3B00AAFD55 /* SearchApi */,
+				F3AC90962483ED08006427F3 /* Cell */,
 				F34631042482864200E96C0D /* AppDelegate.h */,
 				F34631052482864200E96C0D /* AppDelegate.m */,
 				F346310A2482864200E96C0D /* ViewController.h */,
@@ -64,8 +117,22 @@
 				F34631122482864900E96C0D /* LaunchScreen.storyboard */,
 				F34631152482864900E96C0D /* Info.plist */,
 				F34631162482864900E96C0D /* main.m */,
+				F3AC90932483A4C7006427F3 /* RootViewController.h */,
+				F3AC90942483A4C7006427F3 /* RootViewController.m */,
+				F3E94B672486635A005D121D /* ITunesDataSource.h */,
+				F3E94B682486635A005D121D /* ITunesDataSource.m */,
 			);
 			path = "itunes-api";
+			sourceTree = "<group>";
+		};
+		F3AC90962483ED08006427F3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F3AC90972483ED3A006427F3 /* ITunesEntityTableViewCell.h */,
+				F3AC90982483ED3A006427F3 /* ITunesEntityTableViewCell.m */,
+				F3AC90992483ED3A006427F3 /* ITunesEntityTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3AC909B2483ED3A006427F3 /* ITunesEntityTableViewCell.xib in Resources */,
 				F34631142482864900E96C0D /* LaunchScreen.storyboard in Resources */,
 				F34631112482864900E96C0D /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +205,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E94B692486635A005D121D /* ITunesDataSource.m in Sources */,
 				F346310C2482864200E96C0D /* ViewController.m in Sources */,
 				F34631062482864200E96C0D /* AppDelegate.m in Sources */,
+				F3AC909A2483ED3A006427F3 /* ITunesEntityTableViewCell.m in Sources */,
+				F3258AE2248D56A100AAFD55 /* ITunesItemsFactory.m in Sources */,
+				F3258AD224892D5A00AAFD55 /* ITunesSearchApi.m in Sources */,
+				F3258ADF248D567D00AAFD55 /* ITunesEbookItem.m in Sources */,
+				F3258AD9248D407500AAFD55 /* ITunesBaseItem.m in Sources */,
+				F3AC90952483A4C7006427F3 /* RootViewController.m in Sources */,
+				F3258ADC248D565400AAFD55 /* ITunesMediaItem.m in Sources */,
 				F34631172482864900E96C0D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

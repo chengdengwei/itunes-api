@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ITunesDataSource.h"
 
-@interface ViewController : UIViewController
-
-
+@interface ViewController : UIViewController <UITableViewDelegate, UISearchBarDelegate, UITableViewDataSource, ITunesDataSourceDelegate>
+- (instancetype)initWithDataSource:(ITunesDataSource*)dataSource;
 @end
 
